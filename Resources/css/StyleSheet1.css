@@ -53,10 +53,6 @@ nav {
     height: 62px;
 }
 
-h1 {
-    text-transform: uppercase;
-}
-
 
 
 /*Fist section*/
@@ -65,15 +61,47 @@ h1 {
     display: flex;
     background-color: #D8D8D8;
     height: 880px;
-    width: 100%;
     padding-top: 96px;
+    gap: 24px;
 }
 
-.colmarlogo {
-    height: 32px;
-    width: auto;
+.container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    width: 30%;
+}
+
+.box {
 }
 
 .img {
-    padding: 32px 24px;
+    padding: 32px 0px 32px 24px;
+    height: auto;
+    width: 60%;
 }
+
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    padding: 8px 0 8px 0;
+
+}
+
+.button {
+    background-color: #4A4A4A;
+    width: 100%;
+    height: 32px;
+}
+
