@@ -18,16 +18,17 @@ img {
 
 
 
-.page{
+.page {
     max-width: 1100px;
     margin: 0 auto;
+    border: 2px solid #9B9B9B;
 }
 
 .page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0px;
+    padding: 12px 24px;
 }
 
 .brand{
@@ -70,7 +71,7 @@ nav a {
     display: flex;
     width: 100%;
     padding: 32px;
-    background: #d9d9d9;
+    background: rgb(217, 217, 217);
 }
 
 .first-section-image {
@@ -102,7 +103,7 @@ nav a {
 .first-section-text p {
     margin: 0 0 24px;
     font-size: 20px;
-    color: #555;
+    color: 85, 85, 85;
 }
 
 .start-here-button {
@@ -125,6 +126,7 @@ nav a {
 
 .second-section-image{
     width: 60%;
+    height: auto;
 }
 
 .image img {
@@ -132,13 +134,13 @@ nav a {
     display: block;
  }
 
-.cards {
+.second-section .cards {
     width: 40%;
     display: flex;
     flex-direction: column;
 }
 
-.card {
+.second-section .card {
     display: flex;
     background: white;
     border: 1px solid #ddd;
@@ -164,7 +166,7 @@ nav a {
 
 .card-text p {
     margin: 0 0 8px;
-    color: #555;
+    color: rgb(85, 85, 85);
     line-height: 1.4;
 }
 
@@ -190,7 +192,7 @@ nav a {
 
 .quote-body {
     margin: 0 0 24px;
-    color: #555;
+    color: rgb(85, 85, 85);
     font-size: 18px;
     max-width: 800px;
 }
@@ -199,4 +201,118 @@ nav a {
     color: #777;
     font-size: 16px;
     margin-top: 32px;
+}
+
+.third-section {
+    background: rgb(217, 217, 217);
+}
+
+.third-section h1 {
+    text-align: center;
+    color: #4a4a4a;
+    padding-top: 32px;
+    margin: 0;
+}
+
+
+.third-section-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    padding: 32px 72px;
+}
+
+.third-section-card{
+    display: flex;
+    background: white;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+}
+
+.third-section-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background: red;
+}
+
+.card-content .label {
+    color: rgb(119, 119, 119);
+}
+
+.card-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(119, 119, 119);
+}
+
+
+
+
+
+.fourth-section {
+    background: white;
+    padding: 32px 0;
+    border: 2px solid rgb(217, 217, 217);
+}
+
+.fourth-section-content {
+    display: flex;
+    gap: 24px;
+    padding-left: 24px;
+}
+
+
+.fourth-section h1 {
+    text-align: center;
+    color: #4a4a4a;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
+
+.fourth-section-video {
+    width: 60%;
+}
+
+.vid {
+    width: 100%;
+    height: auto;
+}
+
+.fourth-section-content .cards {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-section-content .card {
+    display: flex;
+    background: white;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+}
+
+
+
+
+
+footer .content {
+    height: 96px;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgb(119, 119, 119)
+}
+
+footer .copyright {
+    display: flex;
+}
+
+footer .details {
+    display: flex;
+    gap: 24px;
 }
